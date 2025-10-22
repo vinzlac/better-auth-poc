@@ -1,7 +1,7 @@
 Pour lancer une base de donnée postgreSQL : 
 
 ```
-docker run --name better-auth-poc   -e POSTGRES_USER=admin   -e POSTGRES_PASSWORD=admin   -e POSTGRES_DB=better-auth-poc   -p 5433:5432   -d postgres:17
+docker-compose up -d
 ```
 
 Installer les dépendances :
